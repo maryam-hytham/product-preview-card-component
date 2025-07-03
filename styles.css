@@ -23,7 +23,7 @@ body {
 .card__text {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.4rem;
 }
 .product__img {
   flex: 1;
@@ -44,7 +44,8 @@ body {
 }
 .product__title {
   font-family: "Fraunces", sans-serif;
-  font-size: 2rem;
+  font-size: 2.3em;
+  line-height: 100%;
   font-weight: 700;
   color: hsl(212, 21%, 14%);
 }
