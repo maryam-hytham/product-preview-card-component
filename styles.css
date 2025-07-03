@@ -44,7 +44,7 @@ body {
 }
 .product__title {
   font-family: "Fraunces", sans-serif;
-  font-size: 2.3em;
+  font-size: 2rem;
   line-height: 100%;
   font-weight: 700;
   color: hsl(212, 21%, 14%);
@@ -102,7 +102,9 @@ body {
     align-items: center;
     min-height: 100vh;
   }
-
+  .product__title {
+    font-size: 2.3rem;
+  }
   .product__card {
     flex-direction: row;
     object-fit: cover;
