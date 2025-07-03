@@ -95,13 +95,20 @@ body {
 /*desktop and tablets*/
 @media screen and (min-width: 768px) {
   body {
-    padding: 10rem 18rem;
+    padding: 10rem; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+  }
+
   }
   .product__card {
     flex-direction: row;
     object-fit: cover;
     height: 450px;
     max-width: 600px;
+    margin: 0 auto;
   }
   .product__img,
   .product__preview {
@@ -114,4 +121,5 @@ body {
   .card__text {
     flex-wrap: wrap;
   }
+  
 }
